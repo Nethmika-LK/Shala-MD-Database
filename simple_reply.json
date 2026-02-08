@@ -1,7 +1,48 @@
 {
-  "hi": ["හායි බන්! 😎", "හෙලෝ 🙌", "Heyy 😏"],
-  "mk": ["මුකුත් නෑ බන් 😏", "ඇයි බන් 😎", "අරේ බන් 🤣"],
-  "gn": ["සුභ රාත්‍රිය! 🌙", "Good Night bro! 😴", "Nighty Night! 🌟"],
-  "hello": ["හෙලෝ 🙌", "Hello! 😎", "Heyy 😏"],
-  "kewad": ["ඇයි බන් 😎", "Kewad bro 😏", "කොහොමද බන්? 😎"]
+  "triggers": {
+    "english": [
+      "hi",
+      "mk",
+      "gm",
+      "gn",
+      "hello",
+      "hey",
+      "ok",
+      "kewad",
+      "good night",
+      "good morning"
+    ],
+    "sinhala": [
+      "හායි",
+      "මුකුත් නෑ",
+      "ගුඩ් මොර්නින්ග්",
+      "ගුඩ් නයිට්",
+      "හෙලෝ",
+      "ඇයි බන්",
+      "ආයුබෝවන්"
+    ]
+  },
+  "responses": {
+    "english": {
+      "hi": ["Hello! 😎", "Heyy 😏", "Hi there! 👋"],
+      "mk": ["Mk bro! 👍", "All good 😏"],
+      "gm": ["Good morning! ☀️", "Morning! 🌞"],
+      "gn": ["Good night! 🌙", "Nighty Night! 🌟"],
+      "hello": ["Hello bro! 😎", "Hey there! 🙌"],
+      "hey": ["Heyy! 😏", "Hey there! 👋"],
+      "ok": ["Okay! 😉", "Alright! 👍"],
+      "kewad": ["Kewad bro 😏", "ඇයි බන් 😎"],
+      "good night": ["Good Night! 🌙", "Sleep well! 😴"],
+      "good morning": ["Good Morning! ☀️", "Morning bro! 🌞"]
+    },
+    "sinhala": {
+      "හායි": ["හායි බන්! 😎", "හෙලෝ 🙌"],
+      "මුකුත් නෑ": ["මුකුත් නෑ බන් 😏", "ඇයි බන් 😎"],
+      "ගුඩ් මොර්නින්ග්": ["සුභ උදේ! ☀️", "Morning! 🌞"],
+      "ගුඩ් නයිට්": ["සුභ රාත්‍රිය! 🌙", "Good Night! 😴"],
+      "හෙලෝ": ["හෙලෝ බන්! 🙌", "Hello! 😎"],
+      "ඇයි බන්": ["ඇයි බන් 😏", "කොහොමද බන්? 😎"],
+      "ආයුබෝවන්": ["ආයුබෝවන්! ✨", "Hello! 😎"]
+    }
+  }
 }
